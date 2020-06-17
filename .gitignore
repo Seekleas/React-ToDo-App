@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+/icons
+TS.txt
+/public/data/data.json
 
 # testing
 /coverage

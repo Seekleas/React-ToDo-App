@@ -1,0 +1,159 @@
+.taskListContainer {
+    margin: 20px auto;
+    width: 95%;
+}
+
+.taskListContainer p {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.tasksTable {
+    width: 100%;
+}
+
+.titleRow {
+    background-color: rgb(240, 168, 86);
+    text-align: center;
+}
+
+.tasksTable td {
+    padding: 5px 0;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px dotted rgba(240, 168, 86, .5);
+}
+
+.titleRow td {
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+}
+
+.titleRow td:nth-of-type(1) {
+    width: 7%;
+}
+
+.titleRow td:nth-of-type(2) {
+    width: 48%;
+}
+
+.titleRow td:nth-of-type(3) {
+    width: 15%;
+}
+
+.titleRow td:nth-of-type(4) {
+    width: 15%;
+}
+
+.titleRow td:nth-of-type(5) {
+    width: 15%;
+}
+
+button.actions {
+    margin: 0 10px;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button.actionDone {
+    color: rgb(0, 230, 57);
+}
+
+button.actionDelete {
+    color: rgb(230, 57, 0);
+}
+
+button.actionDone:hover,
+button.actionDelete:hover {
+    opacity: .5;
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .taskListContainer {
+        margin: 10px auto;
+    }
+
+    .taskListContainer p {
+        font-size: 16px;
+    }
+
+    .titleRow td {
+        font-size: 15px;
+    }
+
+    .tasksTable td {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 414px) and (orientation: portrait) {
+    .taskListContainer p {
+        font-size: 12px;
+    }
+
+    .titleRow td {
+        font-size: 12px;
+    }
+
+    .tasksTable td {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+    .taskListContainer {
+        margin: 5px auto;
+    }
+
+    .titleRow td {
+        font-size: 10px;
+    }
+
+    .tasksTable td {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 823px) and (orientation: landscape) {
+    .taskListContainer {
+        margin: 5px auto;
+    }
+
+    .taskListContainer p {
+        font-size: 12px;
+    }
+
+    .titleRow td {
+        font-size: 11px;
+    }
+
+    .tasksTable td {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 667px) and (orientation: landscape) {
+    .taskListContainer p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 568px) and (orientation: landscape) {
+    .taskListContainer p {
+        font-size: 10px;
+    }
+
+    .titleRow td {
+        font-size: 10px;
+    }
+
+    .tasksTable td {
+        font-size: 10px;
+    }
+}

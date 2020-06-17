@@ -1,0 +1,21 @@
+tick -> <i class="fas fa-check-circle"></i>
+plus / add -> <i class="far fa-plus-square"></i>; <i class="fas fa-plus"></i>
+delete -> <i class="far fa-trash-alt"></i>
+move -> <i class="fas fa-reply-all"></i>
+new category -> <i class="fas fa-folder-plus"></i>
+trash -> <i class="fas fa-trash"></i>
+done -> <i class="fas fa-check-square"></i>
+important / priority -> <i class="fas fa-exclamation"></i>
+new category -> <i class="fas fa-folder"></i>
+delete category -> <i class="fas fa-folder-minus"></i>
+task to do -> <i class="fas fa-tasks"></i>
+
+sort
+    alpha up -> <i class="fas fa-sort-alpha-up"></i>
+    alpha down -> <i class="fas fa-sort-alpha-down"></i>
+    amount up -> <i class="fas fa-sort-amount-up"></i>
+    amount down -> <i class="fas fa-sort-amount-down"></i>
+    up -> <i class="fas fa-sort-up"></i>
+    down -> <i class="fas fa-sort-down"></i>
+
+

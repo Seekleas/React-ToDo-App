@@ -1,0 +1,129 @@
+input[type=text] {
+    margin: 10px 10px 0 10px;
+    padding: 0 5px;
+    width: 65%;
+    max-width: 300px;
+    height: 35px;
+}
+
+input[type=date] {
+    margin: 10px;
+    padding: 0 5px;
+    width: 65%;
+    max-width: 300px;
+    height: 35px;
+}
+
+input[type=checkbox] {
+    margin: 5px 5px 5px 0;
+}
+
+.addTaskButton {
+    margin: 0 0 20px 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(0, 214, 221);
+    background-color: #fff;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.addTaskButton:hover {
+    border-color: rgb(0, 214, 221);
+    color: #000;
+}
+
+.validation {
+    margin-left: 10px;
+    font-size: 10px;
+    color: #f00;
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    input[type=text] {
+        margin: 0 10px 0 20px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    input[type=date] {
+        margin: 5px 10px 0 20px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .addTaskButton {
+        margin: 0 0 0 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .form label {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 414px) and (orientation: portrait) {
+    input[type=text] {
+        margin: 0 10px 0 10px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    input[type=date] {
+        margin: 5px 10px 0 10px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .addTaskButton {
+        margin: 0 0 0 10px;
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .form label {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 823px) and (orientation: landscape) {
+    .form {
+        margin: 0;
+    }
+
+    .addTaskButton {
+        margin: 0 0 0 10px;
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .form label {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 667px) and (orientation: landscape) {
+    input[type=text] {
+        margin: 0 10px 0 10px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    input[type=date] {
+        margin: 5px 10px 0;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .addTaskButton {
+        margin: 0 0 0 10px;
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .form label {
+        font-size: 12px;
+    }
+}

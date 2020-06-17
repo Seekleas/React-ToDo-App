@@ -1,0 +1,102 @@
+.cat {
+    text-align: center;
+}
+
+.categoryButton {
+    margin: 10px;
+    padding: 5px 10px;
+    width: 23%;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.categoryButton:hover {
+    border-color: #999;
+    color: #999;
+}
+
+.categoryButton i.fa-check-square {
+    color: rgb(0, 230, 50);
+}
+
+.categoryButton i.fa-trash-alt {
+    color: rgb(230, 50, 0);
+}
+
+.categoryButton i.fa-exclamation {
+    color: rgb(0, 50, 230);
+}
+
+.categoryButton i.fa-tasks {
+    color: rgb(230, 230, 0);
+}
+
+.categoryButton:nth-of-type(1) {
+    background-color: rgba(230, 230, 0, 0.05);
+}
+
+.categoryButton:nth-of-type(2) {
+    background-color: rgba(0, 230, 50, 0.05);
+}
+
+.categoryButton:nth-of-type(3) {
+    background-color: rgba(230, 50, 0, 0.05);
+}
+
+.categoryButton:nth-of-type(4) {
+    background-color: rgba(0, 50, 230, 0.05);
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .cat {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .categoryButton {
+        margin: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 23%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 414px) and (orientation: portrait) {
+    .cat {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .categoryButton {
+        margin: 5px;
+        padding: 5px 10px;
+        width: 45%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 823px) and (orientation: landscape) {
+    .cat {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .categoryButton {
+        margin: 5px;
+        width: 23%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 667px) and (orientation: landscape) {
+
+    .categoryButton {
+        margin: 5px;
+        width: 45%;
+    }
+}
