@@ -1,0 +1,33 @@
+[{
+    "active": true,
+    "date": "2020-06-19",
+    "deleted": false,
+    "finishDate": null,
+    "id": 0,
+    "important": false,
+    "text": "Tekst numer 1"
+}, {
+    "active": true,
+    "date": "2020-06-19",
+    "deleted": false,
+    "finishDate": null,
+    "id": 1,
+    "important": false,
+    "text": "Tekst numer 2"
+}, {
+    "active": true,
+    "date": "2020-06-19",
+    "deleted": false,
+    "finishDate": null,
+    "id": 2,
+    "important": false,
+    "text": "Tekst numer 3"
+}, {
+    "active": true,
+    "date": "2020-06-19",
+    "deleted": false,
+    "finishDate": null,
+    "id": 3,
+    "important": false,
+    "text": "Tekst numer 4"
+}]
